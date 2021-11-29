@@ -48,6 +48,12 @@ class OutlineViewController: UIViewController {
     private lazy var menuItems: [OutlineItem] = {
         return [
             OutlineItem(title: "Drag And Drop", viewController: DragAndDropViewController.self),
+            OutlineItem(title: "Compositional Layout", subitems: [
+                OutlineItem(title: "Getting Started", subitems: [
+                    OutlineItem(title: "Grid", viewController: GridViewController.self),
+                    OutlineItem(title: "Inset Items Grid", viewController: InsetItemsGridViewController.self)
+                ])
+            ])
         ]
     }()
 

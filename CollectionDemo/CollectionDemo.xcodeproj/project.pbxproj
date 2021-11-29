@@ -11,6 +11,7 @@
 		BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */; };
 		BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */; };
 		BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */; };
+		BB7D4AF82754CD0A00F59A49 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4AF72754CD0A00F59A49 /* TextCell.swift */; };
 		BB885C7327508D5500051881 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB885C7227508D5500051881 /* UIColor+.swift */; };
 		BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE073F274E489E00223872 /* AppDelegate.swift */; };
 		BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE0741274E489E00223872 /* SceneDelegate.swift */; };
@@ -27,6 +28,7 @@
 		BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropModel.swift; sourceTree = "<group>"; };
 		BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewModel.swift; sourceTree = "<group>"; };
+		BB7D4AF72754CD0A00F59A49 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		BB885C7227508D5500051881 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		BBCE073C274E489E00223872 /* CollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCE073F274E489E00223872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 				BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */,
 			);
 			path = DragAndDrop;
+			sourceTree = "<group>";
+		};
+		BB7D4AF62754CCF900F59A49 /* Cells and Supplementary Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D4AF72754CD0A00F59A49 /* TextCell.swift */,
+			);
+			path = "Cells and Supplementary Views";
 			sourceTree = "<group>";
 		};
 		BB885C7127508D4600051881 /* Extensions */ = {
@@ -106,6 +116,7 @@
 		BBDB4FBA275488B3005A1D74 /* CompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
+				BB7D4AF62754CCF900F59A49 /* Cells and Supplementary Views */,
 				BBDB4FBF2754C0E5005A1D74 /* Grid */,
 				BBDB4FC22754C186005A1D74 /* InsetItemsGrid */,
 			);
@@ -209,6 +220,7 @@
 				BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */,
 				BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */,
 				BBDB4FC42754C191005A1D74 /* InsetItemsGridViewController.swift in Sources */,
+				BB7D4AF82754CD0A00F59A49 /* TextCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
