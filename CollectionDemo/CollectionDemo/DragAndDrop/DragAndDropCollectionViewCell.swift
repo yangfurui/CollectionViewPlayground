@@ -1,5 +1,5 @@
 //
-//  Collection_DragAndDropCollectionViewCell.swift
+//  DragAndDropCollectionViewCell.swift
 //  CollectionDemo
 //
 //  Created by 杨馥瑞 on 2021/11/25.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Collection_DragAndDropCollectionViewCell: UICollectionViewCell {
+class DragAndDropCollectionViewCell: UICollectionViewCell {
     
     private(set) lazy var titleLabel: UILabel = _getTitleLabel()
     

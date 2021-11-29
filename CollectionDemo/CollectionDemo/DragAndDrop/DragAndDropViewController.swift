@@ -7,11 +7,11 @@
 
 import UIKit
 
-class Colletion_DragAndDropViewController: UIViewController {
+class DragAndDropViewController: UIViewController {
     
     // MARK: - Properties
     
-    private let viewModel = Collection_DragAndDropViewModel()
+    private let viewModel = DragAndDropViewModel()
     private let collectionCellIdentifier = "Collection_DragAndDropCollectionViewCell"
     private lazy var flowLayout: UICollectionViewFlowLayout = _getCollectionViewLayout()
     private lazy var collectionView: UICollectionView = _getCollectionView()
@@ -46,7 +46,7 @@ class Colletion_DragAndDropViewController: UIViewController {
         
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
         collectionView.contentInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
-        collectionView.register(Collection_DragAndDropCollectionViewCell.self, forCellWithReuseIdentifier: collectionCellIdentifier)
+        collectionView.register(DragAndDropCollectionViewCell.self, forCellWithReuseIdentifier: collectionCellIdentifier)
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.dragDelegate = self
@@ -76,13 +76,13 @@ class Colletion_DragAndDropViewController: UIViewController {
 
 }
 
-extension Colletion_DragAndDropViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension DragAndDropViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return viewModel.dataSource.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: collectionCellIdentifier, for: indexPath) as! Collection_DragAndDropCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: collectionCellIdentifier, for: indexPath) as! DragAndDropCollectionViewCell
         cell.titleLabel.text = viewModel.dataSource[indexPath.item].content
         cell.contentView.backgroundColor = viewModel.dataSource[indexPath.item].cellBackgroundColor
         return cell
@@ -93,7 +93,7 @@ extension Colletion_DragAndDropViewController: UICollectionViewDataSource, UICol
     }
 }
 
-extension Colletion_DragAndDropViewController: UICollectionViewDragDelegate, UICollectionViewDropDelegate {
+extension DragAndDropViewController: UICollectionViewDragDelegate, UICollectionViewDropDelegate {
     
     // MARK: - Drag
     

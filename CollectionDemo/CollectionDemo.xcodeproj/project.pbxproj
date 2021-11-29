@@ -7,33 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BB32DF5F274F7F2800A4924A /* Colletion_DragAndDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF5E274F7F2800A4924A /* Colletion_DragAndDropViewController.swift */; };
-		BB32DF62274FA7FD00A4924A /* Colletion_DragAndDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF61274FA7FD00A4924A /* Colletion_DragAndDropModel.swift */; };
-		BB32DF64274FA84300A4924A /* Collection_DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* Collection_DragAndDropCollectionViewCell.swift */; };
-		BB32DF66274FA86900A4924A /* Collection_DragAndDropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF65274FA86900A4924A /* Collection_DragAndDropViewModel.swift */; };
+		BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */; };
+		BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */; };
+		BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */; };
+		BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */; };
 		BB885C7327508D5500051881 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB885C7227508D5500051881 /* UIColor+.swift */; };
 		BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE073F274E489E00223872 /* AppDelegate.swift */; };
 		BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE0741274E489E00223872 /* SceneDelegate.swift */; };
-		BBCE0744274E489E00223872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE0743274E489E00223872 /* ViewController.swift */; };
 		BBCE0747274E489E00223872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCE0745274E489E00223872 /* Main.storyboard */; };
 		BBCE0749274E489E00223872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCE0748274E489E00223872 /* Assets.xcassets */; };
 		BBCE074C274E489E00223872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCE074A274E489E00223872 /* LaunchScreen.storyboard */; };
+		BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4FBD2754B753005A1D74 /* OutlineViewController.swift */; };
+		BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */; };
+		BBDB4FC42754C191005A1D74 /* InsetItemsGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4FC32754C191005A1D74 /* InsetItemsGridViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB32DF5E274F7F2800A4924A /* Colletion_DragAndDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colletion_DragAndDropViewController.swift; sourceTree = "<group>"; };
-		BB32DF61274FA7FD00A4924A /* Colletion_DragAndDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colletion_DragAndDropModel.swift; sourceTree = "<group>"; };
-		BB32DF63274FA84300A4924A /* Collection_DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
-		BB32DF65274FA86900A4924A /* Collection_DragAndDropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_DragAndDropViewModel.swift; sourceTree = "<group>"; };
+		BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewController.swift; sourceTree = "<group>"; };
+		BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropModel.swift; sourceTree = "<group>"; };
+		BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewModel.swift; sourceTree = "<group>"; };
 		BB885C7227508D5500051881 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		BBCE073C274E489E00223872 /* CollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCE073F274E489E00223872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBCE0741274E489E00223872 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBCE0743274E489E00223872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBCE0746274E489E00223872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBCE0748274E489E00223872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBCE074B274E489E00223872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBCE074D274E489E00223872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDB4FBD2754B753005A1D74 /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
+		BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		BBDB4FC32754C191005A1D74 /* InsetItemsGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetItemsGridViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,15 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB32DF60274FA7EA00A4924A /* Collection_DragAndDrop */ = {
+		BB32DF60274FA7EA00A4924A /* DragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
-				BB32DF5E274F7F2800A4924A /* Colletion_DragAndDropViewController.swift */,
-				BB32DF61274FA7FD00A4924A /* Colletion_DragAndDropModel.swift */,
-				BB32DF63274FA84300A4924A /* Collection_DragAndDropCollectionViewCell.swift */,
-				BB32DF65274FA86900A4924A /* Collection_DragAndDropViewModel.swift */,
+				BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */,
+				BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */,
+				BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */,
+				BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */,
 			);
-			path = Collection_DragAndDrop;
+			path = DragAndDrop;
 			sourceTree = "<group>";
 		};
 		BB885C7127508D4600051881 /* Extensions */ = {
@@ -64,13 +68,6 @@
 				BB885C7227508D5500051881 /* UIColor+.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		BB885C742750B7B700051881 /* PhotoAlbumDemo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PhotoAlbumDemo;
 			sourceTree = "<group>";
 		};
 		BBCE0733274E489E00223872 = {
@@ -93,17 +90,42 @@
 			isa = PBXGroup;
 			children = (
 				BB885C7127508D4600051881 /* Extensions */,
-				BB885C742750B7B700051881 /* PhotoAlbumDemo */,
-				BB32DF60274FA7EA00A4924A /* Collection_DragAndDrop */,
+				BBDB4FBA275488B3005A1D74 /* CompositionalLayout */,
+				BB32DF60274FA7EA00A4924A /* DragAndDrop */,
 				BBCE073F274E489E00223872 /* AppDelegate.swift */,
 				BBCE0741274E489E00223872 /* SceneDelegate.swift */,
-				BBCE0743274E489E00223872 /* ViewController.swift */,
+				BBDB4FBD2754B753005A1D74 /* OutlineViewController.swift */,
 				BBCE0745274E489E00223872 /* Main.storyboard */,
 				BBCE0748274E489E00223872 /* Assets.xcassets */,
 				BBCE074A274E489E00223872 /* LaunchScreen.storyboard */,
 				BBCE074D274E489E00223872 /* Info.plist */,
 			);
 			path = CollectionDemo;
+			sourceTree = "<group>";
+		};
+		BBDB4FBA275488B3005A1D74 /* CompositionalLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB4FBF2754C0E5005A1D74 /* Grid */,
+				BBDB4FC22754C186005A1D74 /* InsetItemsGrid */,
+			);
+			path = CompositionalLayout;
+			sourceTree = "<group>";
+		};
+		BBDB4FBF2754C0E5005A1D74 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		BBDB4FC22754C186005A1D74 /* InsetItemsGrid */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB4FC32754C191005A1D74 /* InsetItemsGridViewController.swift */,
+			);
+			path = InsetItemsGrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,14 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB32DF62274FA7FD00A4924A /* Colletion_DragAndDropModel.swift in Sources */,
+				BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */,
 				BB885C7327508D5500051881 /* UIColor+.swift in Sources */,
-				BB32DF66274FA86900A4924A /* Collection_DragAndDropViewModel.swift in Sources */,
-				BBCE0744274E489E00223872 /* ViewController.swift in Sources */,
+				BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */,
+				BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */,
+				BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */,
 				BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */,
-				BB32DF64274FA84300A4924A /* Collection_DragAndDropCollectionViewCell.swift in Sources */,
+				BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */,
 				BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */,
-				BB32DF5F274F7F2800A4924A /* Colletion_DragAndDropViewController.swift in Sources */,
+				BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */,
+				BBDB4FC42754C191005A1D74 /* InsetItemsGridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +363,6 @@
 				INFOPLIST_FILE = CollectionDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -369,7 +392,6 @@
 				INFOPLIST_FILE = CollectionDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,5 +1,5 @@
 //
-//  Colletion_DragAndDropModel.swift
+//  DragAndDropModel.swift
 //  CollectionDemo
 //
 //  Created by 杨馥瑞 on 2021/11/25.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Colletion_DragAndDropModel: NSObject, NSItemProviderWriting {
+class DragAndDropModel: NSObject, NSItemProviderWriting {
     
     var content: String
     var cellBackgroundColor: UIColor
