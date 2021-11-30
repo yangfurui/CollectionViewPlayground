@@ -51,10 +51,15 @@ class OutlineViewController: UIViewController {
             OutlineItem(title: "Compositional Layout", subitems: [
                 OutlineItem(title: "Getting Started", subitems: [
                     OutlineItem(title: "Grid", viewController: GridViewController.self),
-                    OutlineItem(title: "Two-Column Grid", viewController: TwoColumnViewController.self)
+                    OutlineItem(title: "Two-Column Grid", viewController: TwoColumnViewController.self),
+                    OutlineItem(title: "Per-Section Layout", subitems: [
+                        OutlineItem(title: "Distinct Sections", viewController: DistinctSectionsViewController.self)
+                    ])
                 ]),
-                OutlineItem(title: "Per-Section Layout", subitems: [
-                    OutlineItem(title: "Distinct Sections", viewController: DistinctSectionsViewController.self)
+                OutlineItem(title: "Advanced Layouts", subitems: [
+                    OutlineItem(title: "Supplementary Views", subitems: [
+                        OutlineItem(title: "Pinned Section Headers", viewController: PinnedSectionHeaderFooterViewController.self)
+                    ])
                 ])
             ])
         ]
