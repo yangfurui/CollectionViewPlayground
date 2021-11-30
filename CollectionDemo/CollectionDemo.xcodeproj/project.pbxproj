@@ -11,6 +11,8 @@
 		BB07CD2A2755D857001D1620 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD292755D857001D1620 /* ListCell.swift */; };
 		BB07CD2D2755FE3C001D1620 /* PinnedSectionHeaderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD2C2755FE3C001D1620 /* PinnedSectionHeaderFooterViewController.swift */; };
 		BB07CD2F27560164001D1620 /* TitleSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD2E27560164001D1620 /* TitleSupplementaryView.swift */; };
+		BB07CD3227560814001D1620 /* SectionDecorationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD3127560814001D1620 /* SectionDecorationViewController.swift */; };
+		BB07CD34275609F4001D1620 /* SectionBackgroundDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD33275609F4001D1620 /* SectionBackgroundDecorationView.swift */; };
 		BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */; };
 		BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */; };
 		BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */; };
@@ -32,6 +34,8 @@
 		BB07CD292755D857001D1620 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		BB07CD2C2755FE3C001D1620 /* PinnedSectionHeaderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedSectionHeaderFooterViewController.swift; sourceTree = "<group>"; };
 		BB07CD2E27560164001D1620 /* TitleSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSupplementaryView.swift; sourceTree = "<group>"; };
+		BB07CD3127560814001D1620 /* SectionDecorationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDecorationViewController.swift; sourceTree = "<group>"; };
+		BB07CD33275609F4001D1620 /* SectionBackgroundDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBackgroundDecorationView.swift; sourceTree = "<group>"; };
 		BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewController.swift; sourceTree = "<group>"; };
 		BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropModel.swift; sourceTree = "<group>"; };
 		BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -68,6 +72,7 @@
 				BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */,
 				BB07CD272755C22F001D1620 /* DistinctSectionsViewController.swift */,
 				BB07CD2C2755FE3C001D1620 /* PinnedSectionHeaderFooterViewController.swift */,
+				BB07CD3127560814001D1620 /* SectionDecorationViewController.swift */,
 			);
 			path = BaseViewControllers;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 				BB7D4AF72754CD0A00F59A49 /* TextCell.swift */,
 				BB07CD292755D857001D1620 /* ListCell.swift */,
 				BB07CD2E27560164001D1620 /* TitleSupplementaryView.swift */,
+				BB07CD33275609F4001D1620 /* SectionBackgroundDecorationView.swift */,
 			);
 			path = "Cells and Supplementary Views";
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 			files = (
 				BB07CD282755C22F001D1620 /* DistinctSectionsViewController.swift in Sources */,
 				BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */,
+				BB07CD34275609F4001D1620 /* SectionBackgroundDecorationView.swift in Sources */,
 				BB885C7327508D5500051881 /* UIColor+.swift in Sources */,
 				BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */,
 				BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */,
@@ -226,6 +233,7 @@
 				BB07CD2F27560164001D1620 /* TitleSupplementaryView.swift in Sources */,
 				BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */,
 				BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */,
+				BB07CD3227560814001D1620 /* SectionDecorationViewController.swift in Sources */,
 				BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */,
 				BB07CD2D2755FE3C001D1620 /* PinnedSectionHeaderFooterViewController.swift in Sources */,
 				BB7D4AF82754CD0A00F59A49 /* TextCell.swift in Sources */,
