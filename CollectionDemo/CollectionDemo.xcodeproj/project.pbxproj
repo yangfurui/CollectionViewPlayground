@@ -61,20 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB07CD262755C221001D1620 /* Per-Section Layout */ = {
+		BB07CD3027560738001D1620 /* BaseViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */,
+				BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */,
 				BB07CD272755C22F001D1620 /* DistinctSectionsViewController.swift */,
-			);
-			path = "Per-Section Layout";
-			sourceTree = "<group>";
-		};
-		BB07CD2B2755F769001D1620 /* PinnedSectionHeaderFooter */ = {
-			isa = PBXGroup;
-			children = (
 				BB07CD2C2755FE3C001D1620 /* PinnedSectionHeaderFooterViewController.swift */,
 			);
-			path = PinnedSectionHeaderFooter;
+			path = BaseViewControllers;
 			sourceTree = "<group>";
 		};
 		BB32DF60274FA7EA00A4924A /* DragAndDrop */ = {
@@ -97,15 +92,6 @@
 			);
 			path = "Cells and Supplementary Views";
 			sourceTree = "<group>";
-		};
-		BB7D4AF92754DE3A00F59A49 /* Two-Column Grid */ = {
-			isa = PBXGroup;
-			children = (
-				BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */,
-			);
-			name = "Two-Column Grid";
-			path = "CollectionDemo/CompositionalLayout/Two-Column Grid";
-			sourceTree = SOURCE_ROOT;
 		};
 		BB885C7127508D4600051881 /* Extensions */ = {
 			isa = PBXGroup;
@@ -151,21 +137,10 @@
 		BBDB4FBA275488B3005A1D74 /* CompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
-				BB07CD2B2755F769001D1620 /* PinnedSectionHeaderFooter */,
-				BB07CD262755C221001D1620 /* Per-Section Layout */,
-				BB7D4AF92754DE3A00F59A49 /* Two-Column Grid */,
+				BB07CD3027560738001D1620 /* BaseViewControllers */,
 				BB7D4AF62754CCF900F59A49 /* Cells and Supplementary Views */,
-				BBDB4FBF2754C0E5005A1D74 /* Grid */,
 			);
 			path = CompositionalLayout;
-			sourceTree = "<group>";
-		};
-		BBDB4FBF2754C0E5005A1D74 /* Grid */ = {
-			isa = PBXGroup;
-			children = (
-				BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */,
-			);
-			path = Grid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
