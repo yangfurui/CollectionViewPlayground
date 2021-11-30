@@ -58,7 +58,7 @@ class OutlineViewController: UIViewController {
                 ]),
                 OutlineItem(title: "Advanced Layouts", subitems: [
                     OutlineItem(title: "Supplementary Views", subitems: [
-                        OutlineItem(title: "Pinned Section Headers", viewController: PinnedSectionHeaderFooterViewController.self)
+                        OutlineItem(title: "Pinned Section Headers/Footers", viewController: PinnedSectionHeaderFooterViewController.self)
                     ])
                 ])
             ])
