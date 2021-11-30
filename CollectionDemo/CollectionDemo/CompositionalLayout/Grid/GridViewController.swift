@@ -35,12 +35,10 @@ extension GridViewController {
     }
     
     private func createLayout() -> UICollectionViewLayout {
-        // .fractionalWidth(0.2) 相对于 group 的宽度的0.2
         let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.2), heightDimension: .fractionalHeight(1.0))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
         item.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5)
         
-        // .fractionalWidth(1) 相对于 collectionView.width 的1
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalWidth(0.2))
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
         

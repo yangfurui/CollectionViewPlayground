@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB07CD282755C22F001D1620 /* DistinctSectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD272755C22F001D1620 /* DistinctSectionsViewController.swift */; };
+		BB07CD2A2755D857001D1620 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD292755D857001D1620 /* ListCell.swift */; };
 		BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */; };
 		BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */; };
 		BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB07CD272755C22F001D1620 /* DistinctSectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctSectionsViewController.swift; sourceTree = "<group>"; };
+		BB07CD292755D857001D1620 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 		BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewController.swift; sourceTree = "<group>"; };
 		BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropModel.swift; sourceTree = "<group>"; };
 		BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -53,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB07CD262755C221001D1620 /* Per-Section Layout */ = {
+			isa = PBXGroup;
+			children = (
+				BB07CD272755C22F001D1620 /* DistinctSectionsViewController.swift */,
+			);
+			path = "Per-Section Layout";
+			sourceTree = "<group>";
+		};
 		BB32DF60274FA7EA00A4924A /* DragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				BB7D4AF72754CD0A00F59A49 /* TextCell.swift */,
+				BB07CD292755D857001D1620 /* ListCell.swift */,
 			);
 			path = "Cells and Supplementary Views";
 			sourceTree = "<group>";
@@ -125,6 +138,7 @@
 		BBDB4FBA275488B3005A1D74 /* CompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
+				BB07CD262755C221001D1620 /* Per-Section Layout */,
 				BB7D4AF92754DE3A00F59A49 /* Two-Column Grid */,
 				BB7D4AF62754CCF900F59A49 /* Cells and Supplementary Views */,
 				BBDB4FBF2754C0E5005A1D74 /* Grid */,
@@ -211,10 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB07CD282755C22F001D1620 /* DistinctSectionsViewController.swift in Sources */,
 				BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */,
 				BB885C7327508D5500051881 /* UIColor+.swift in Sources */,
 				BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */,
 				BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */,
+				BB07CD2A2755D857001D1620 /* ListCell.swift in Sources */,
 				BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */,
 				BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */,
 				BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */,

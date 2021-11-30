@@ -35,11 +35,9 @@ extension TwoColumnViewController {
     }
     
     private func createLayout() -> UICollectionViewLayout {
-        // .fractionalWidth(0.2) 相对于 group 的宽度的0.2
         let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: .fractionalHeight(1.0))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
         
-        // .fractionalWidth(1) 相对于 collectionView.width 的1
         let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .absolute(44))
         let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 2)
         // item之间的间距

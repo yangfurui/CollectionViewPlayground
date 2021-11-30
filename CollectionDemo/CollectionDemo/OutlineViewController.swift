@@ -52,6 +52,9 @@ class OutlineViewController: UIViewController {
                 OutlineItem(title: "Getting Started", subitems: [
                     OutlineItem(title: "Grid", viewController: GridViewController.self),
                     OutlineItem(title: "Two-Column Grid", viewController: TwoColumnViewController.self)
+                ]),
+                OutlineItem(title: "Per-Section Layout", subitems: [
+                    OutlineItem(title: "Distinct Sections", viewController: DistinctSectionsViewController.self)
                 ])
             ])
         ]
