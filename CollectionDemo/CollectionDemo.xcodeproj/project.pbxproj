@@ -12,6 +12,7 @@
 		BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */; };
 		BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */; };
 		BB7D4AF82754CD0A00F59A49 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4AF72754CD0A00F59A49 /* TextCell.swift */; };
+		BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */; };
 		BB885C7327508D5500051881 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB885C7227508D5500051881 /* UIColor+.swift */; };
 		BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE073F274E489E00223872 /* AppDelegate.swift */; };
 		BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE0741274E489E00223872 /* SceneDelegate.swift */; };
@@ -20,7 +21,6 @@
 		BBCE074C274E489E00223872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCE074A274E489E00223872 /* LaunchScreen.storyboard */; };
 		BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4FBD2754B753005A1D74 /* OutlineViewController.swift */; };
 		BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */; };
-		BBDB4FC42754C191005A1D74 /* InsetItemsGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4FC32754C191005A1D74 /* InsetItemsGridViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +29,7 @@
 		BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewModel.swift; sourceTree = "<group>"; };
 		BB7D4AF72754CD0A00F59A49 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewController.swift; sourceTree = "<group>"; };
 		BB885C7227508D5500051881 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		BBCE073C274E489E00223872 /* CollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCE073F274E489E00223872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		BBCE074D274E489E00223872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBDB4FBD2754B753005A1D74 /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
 		BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
-		BBDB4FC32754C191005A1D74 /* InsetItemsGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetItemsGridViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +71,15 @@
 			);
 			path = "Cells and Supplementary Views";
 			sourceTree = "<group>";
+		};
+		BB7D4AF92754DE3A00F59A49 /* Two-Column Grid */ = {
+			isa = PBXGroup;
+			children = (
+				BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */,
+			);
+			name = "Two-Column Grid";
+			path = "CollectionDemo/CompositionalLayout/Two-Column Grid";
+			sourceTree = SOURCE_ROOT;
 		};
 		BB885C7127508D4600051881 /* Extensions */ = {
 			isa = PBXGroup;
@@ -116,9 +125,9 @@
 		BBDB4FBA275488B3005A1D74 /* CompositionalLayout */ = {
 			isa = PBXGroup;
 			children = (
+				BB7D4AF92754DE3A00F59A49 /* Two-Column Grid */,
 				BB7D4AF62754CCF900F59A49 /* Cells and Supplementary Views */,
 				BBDB4FBF2754C0E5005A1D74 /* Grid */,
-				BBDB4FC22754C186005A1D74 /* InsetItemsGrid */,
 			);
 			path = CompositionalLayout;
 			sourceTree = "<group>";
@@ -129,14 +138,6 @@
 				BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */,
 			);
 			path = Grid;
-			sourceTree = "<group>";
-		};
-		BBDB4FC22754C186005A1D74 /* InsetItemsGrid */ = {
-			isa = PBXGroup;
-			children = (
-				BBDB4FC32754C191005A1D74 /* InsetItemsGridViewController.swift */,
-			);
-			path = InsetItemsGrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +213,7 @@
 			files = (
 				BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */,
 				BB885C7327508D5500051881 /* UIColor+.swift in Sources */,
+				BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */,
 				BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */,
 				BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */,
 				BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */,
@@ -219,7 +221,6 @@
 				BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */,
 				BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */,
 				BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */,
-				BBDB4FC42754C191005A1D74 /* InsetItemsGridViewController.swift in Sources */,
 				BB7D4AF82754CD0A00F59A49 /* TextCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

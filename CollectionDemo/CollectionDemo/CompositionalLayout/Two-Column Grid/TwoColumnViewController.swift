@@ -1,5 +1,5 @@
 //
-//  GridViewController.swift
+//  TwoColumnViewController.swift
 //  CollectionDemo
 //
 //  Created by 杨馥瑞 on 2021/11/29.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GridViewController: UIViewController {
+class TwoColumnViewController: UIViewController {
     
     enum Section {
         case main
@@ -18,14 +18,14 @@ class GridViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Grid"
+        navigationItem.title = "Two-Column Grid"
         configureHierarchy()
         configureDataSource()
     }
 
 }
 
-extension GridViewController {
+extension TwoColumnViewController {
     
     private func configureHierarchy() {
         collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createLayout())
@@ -36,15 +36,20 @@ extension GridViewController {
     
     private func createLayout() -> UICollectionViewLayout {
         // .fractionalWidth(0.2) 相对于 group 的宽度的0.2
-        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.2), heightDimension: .fractionalHeight(1.0))
+        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: .fractionalHeight(1.0))
         let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        item.contentInsets = NSDirectionalEdgeInsets(top: 5, leading: 5, bottom: 5, trailing: 5)
         
         // .fractionalWidth(1) 相对于 collectionView.width 的1
-        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .fractionalWidth(0.2))
-        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
+        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1), heightDimension: .absolute(44))
+        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitem: item, count: 2)
+        // item之间的间距
+        let spacing = CGFloat(10)
+        group.interItemSpacing = .fixed(spacing)
         
         let section = NSCollectionLayoutSection(group: group)
+        // 行间距
+        section.interGroupSpacing = spacing
+        section.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10)
         
         let layout = UICollectionViewCompositionalLayout(section: section)
         return layout
@@ -73,3 +78,4 @@ extension GridViewController {
     }
     
 }
+
