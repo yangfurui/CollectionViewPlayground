@@ -47,7 +47,6 @@ class OutlineViewController: UIViewController {
     
     private lazy var menuItems: [OutlineItem] = {
         return [
-//            OutlineItem(title: "New Emoji", viewController: NewSSEmojiContainerViewController.self),
             OutlineItem(title: "Drag And Drop", viewController: DragAndDropViewController.self),
             OutlineItem(title: "Compositional Layout", subitems: [
                 OutlineItem(title: "Getting Started", subitems: [
@@ -61,10 +60,13 @@ class OutlineViewController: UIViewController {
                     OutlineItem(title: "Supplementary Views", subitems: [
                         OutlineItem(title: "Pinned Section Headers/Footers", viewController: PinnedSectionHeaderFooterViewController.self)
                     ]),
-                    OutlineItem(title: "Section Background Decoration", viewController: SectionDecorationViewController.self)
+                    OutlineItem(title: "Section Background Decoration", viewController: SectionDecorationViewController.self),
+                    OutlineItem(title: "Orthogonal Sections", subitems: [
+                        OutlineItem(title: "Orthogonal Section Behaviors", viewController: OrthogonalScrollBehaviorViewController.self)
+                    ]),
                 ]),
-                OutlineItem(title: "Orthogonal Sections", subitems: [
-                    OutlineItem(title: "Orthogonal Section Behaviors", viewController: OrthogonalScrollBehaviorViewController.self)
+                OutlineItem(title: "Conference App", subitems: [
+                    OutlineItem(title: "Videos", viewController: ConferenceVideoSessionsViewController.self)
                 ])
             ])
         ]

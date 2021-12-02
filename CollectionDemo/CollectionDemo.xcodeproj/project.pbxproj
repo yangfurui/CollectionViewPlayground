@@ -17,6 +17,8 @@
 		BB07CD38275627C6001D1620 /* FacialEmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD37275627C6001D1620 /* FacialEmojiCell.swift */; };
 		BB07CD3A27563CFA001D1620 /* NewSSEmojiContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD3927563CFA001D1620 /* NewSSEmojiContainerViewController.swift */; };
 		BB20F1B927587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20F1B827587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift */; };
+		BB20F1BC2758830700738F5D /* ConferenceVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20F1BB2758830700738F5D /* ConferenceVideoController.swift */; };
+		BB20F1BE2758845A00738F5D /* ConferenceVideoSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20F1BD2758845A00738F5D /* ConferenceVideoSessionsViewController.swift */; };
 		BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */; };
 		BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */; };
 		BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */; };
@@ -26,6 +28,7 @@
 		BB7D4AF82754CD0A00F59A49 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4AF72754CD0A00F59A49 /* TextCell.swift */; };
 		BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */; };
 		BB885C7327508D5500051881 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB885C7227508D5500051881 /* UIColor+.swift */; };
+		BBAE7D442758A6C300F3036D /* ConferenceVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D432758A6C300F3036D /* ConferenceVideoCell.swift */; };
 		BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE073F274E489E00223872 /* AppDelegate.swift */; };
 		BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE0741274E489E00223872 /* SceneDelegate.swift */; };
 		BBCE0747274E489E00223872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCE0745274E489E00223872 /* Main.storyboard */; };
@@ -46,6 +49,8 @@
 		BB07CD37275627C6001D1620 /* FacialEmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialEmojiCell.swift; sourceTree = "<group>"; };
 		BB07CD3927563CFA001D1620 /* NewSSEmojiContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSSEmojiContainerViewController.swift; sourceTree = "<group>"; };
 		BB20F1B827587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthogonalScrollBehaviorViewController.swift; sourceTree = "<group>"; };
+		BB20F1BB2758830700738F5D /* ConferenceVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceVideoController.swift; sourceTree = "<group>"; };
+		BB20F1BD2758845A00738F5D /* ConferenceVideoSessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceVideoSessionsViewController.swift; sourceTree = "<group>"; };
 		BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewController.swift; sourceTree = "<group>"; };
 		BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropModel.swift; sourceTree = "<group>"; };
 		BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -55,6 +60,7 @@
 		BB7D4AF72754CD0A00F59A49 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewController.swift; sourceTree = "<group>"; };
 		BB885C7227508D5500051881 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		BBAE7D432758A6C300F3036D /* ConferenceVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceVideoCell.swift; sourceTree = "<group>"; };
 		BBCE073C274E489E00223872 /* CollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCE073F274E489E00223872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBCE0741274E489E00223872 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 		BB07CD3027560738001D1620 /* BaseViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BB20F1BA275882F300738F5D /* AppSamplesViewControllers */,
 				BB20F1B727587B5700738F5D /* CustomDemos */,
 				BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */,
 				BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */,
@@ -103,6 +110,15 @@
 			path = CustomDemos;
 			sourceTree = "<group>";
 		};
+		BB20F1BA275882F300738F5D /* AppSamplesViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB20F1BB2758830700738F5D /* ConferenceVideoController.swift */,
+				BB20F1BD2758845A00738F5D /* ConferenceVideoSessionsViewController.swift */,
+			);
+			path = AppSamplesViewControllers;
+			sourceTree = "<group>";
+		};
 		BB32DF60274FA7EA00A4924A /* DragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				BB7D4AF72754CD0A00F59A49 /* TextCell.swift */,
+				BBAE7D432758A6C300F3036D /* ConferenceVideoCell.swift */,
 				BB07CD292755D857001D1620 /* ListCell.swift */,
 				BB07CD2E27560164001D1620 /* TitleSupplementaryView.swift */,
 				BB07CD33275609F4001D1620 /* SectionBackgroundDecorationView.swift */,
@@ -261,14 +278,17 @@
 				BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */,
 				BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */,
 				BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */,
+				BB20F1BC2758830700738F5D /* ConferenceVideoController.swift in Sources */,
 				BB07CD38275627C6001D1620 /* FacialEmojiCell.swift in Sources */,
 				BB07CD2F27560164001D1620 /* TitleSupplementaryView.swift in Sources */,
 				BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */,
 				BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */,
 				BB07CD3227560814001D1620 /* SectionDecorationViewController.swift in Sources */,
+				BB20F1BE2758845A00738F5D /* ConferenceVideoSessionsViewController.swift in Sources */,
 				BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */,
 				BB07CD2D2755FE3C001D1620 /* PinnedSectionHeaderFooterViewController.swift in Sources */,
 				BB7D4AF82754CD0A00F59A49 /* TextCell.swift in Sources */,
+				BBAE7D442758A6C300F3036D /* ConferenceVideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
