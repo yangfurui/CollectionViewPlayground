@@ -29,6 +29,9 @@
 		BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */; };
 		BB885C7327508D5500051881 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB885C7227508D5500051881 /* UIColor+.swift */; };
 		BBAE7D442758A6C300F3036D /* ConferenceVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D432758A6C300F3036D /* ConferenceVideoCell.swift */; };
+		BBAE7D462758AB8A00F3036D /* ConferenceNewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D452758AB8A00F3036D /* ConferenceNewsFeedViewController.swift */; };
+		BBAE7D482758ABF100F3036D /* ConferenceNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D472758ABF100F3036D /* ConferenceNewsController.swift */; };
+		BBAE7D4A2758B29300F3036D /* ConferenceNewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D492758B29300F3036D /* ConferenceNewsFeedCell.swift */; };
 		BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE073F274E489E00223872 /* AppDelegate.swift */; };
 		BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE0741274E489E00223872 /* SceneDelegate.swift */; };
 		BBCE0747274E489E00223872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCE0745274E489E00223872 /* Main.storyboard */; };
@@ -61,6 +64,9 @@
 		BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewController.swift; sourceTree = "<group>"; };
 		BB885C7227508D5500051881 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		BBAE7D432758A6C300F3036D /* ConferenceVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceVideoCell.swift; sourceTree = "<group>"; };
+		BBAE7D452758AB8A00F3036D /* ConferenceNewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceNewsFeedViewController.swift; sourceTree = "<group>"; };
+		BBAE7D472758ABF100F3036D /* ConferenceNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceNewsController.swift; sourceTree = "<group>"; };
+		BBAE7D492758B29300F3036D /* ConferenceNewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceNewsFeedCell.swift; sourceTree = "<group>"; };
 		BBCE073C274E489E00223872 /* CollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCE073F274E489E00223872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBCE0741274E489E00223872 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +121,8 @@
 			children = (
 				BB20F1BB2758830700738F5D /* ConferenceVideoController.swift */,
 				BB20F1BD2758845A00738F5D /* ConferenceVideoSessionsViewController.swift */,
+				BBAE7D452758AB8A00F3036D /* ConferenceNewsFeedViewController.swift */,
+				BBAE7D472758ABF100F3036D /* ConferenceNewsController.swift */,
 			);
 			path = AppSamplesViewControllers;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 				BB07CD292755D857001D1620 /* ListCell.swift */,
 				BB07CD2E27560164001D1620 /* TitleSupplementaryView.swift */,
 				BB07CD33275609F4001D1620 /* SectionBackgroundDecorationView.swift */,
+				BBAE7D492758B29300F3036D /* ConferenceNewsFeedCell.swift */,
 			);
 			path = "Cells and Supplementary Views";
 			sourceTree = "<group>";
@@ -265,6 +274,7 @@
 			files = (
 				BB07CD3A27563CFA001D1620 /* NewSSEmojiContainerViewController.swift in Sources */,
 				BB07CD3627560FE0001D1620 /* NewSSEmojiViewController.swift in Sources */,
+				BBAE7D4A2758B29300F3036D /* ConferenceNewsFeedCell.swift in Sources */,
 				BB07CD282755C22F001D1620 /* DistinctSectionsViewController.swift in Sources */,
 				BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */,
 				BB74DC182757189900086315 /* CS_FacialContainerItemCell.swift in Sources */,
@@ -272,6 +282,7 @@
 				BB885C7327508D5500051881 /* UIColor+.swift in Sources */,
 				BB74DC1A27574BCE00086315 /* CS_EmojiSupplementaryView.swift in Sources */,
 				BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */,
+				BBAE7D462758AB8A00F3036D /* ConferenceNewsFeedViewController.swift in Sources */,
 				BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */,
 				BB20F1B927587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift in Sources */,
 				BB07CD2A2755D857001D1620 /* ListCell.swift in Sources */,
@@ -284,6 +295,7 @@
 				BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */,
 				BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */,
 				BB07CD3227560814001D1620 /* SectionDecorationViewController.swift in Sources */,
+				BBAE7D482758ABF100F3036D /* ConferenceNewsController.swift in Sources */,
 				BB20F1BE2758845A00738F5D /* ConferenceVideoSessionsViewController.swift in Sources */,
 				BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */,
 				BB07CD2D2755FE3C001D1620 /* PinnedSectionHeaderFooterViewController.swift in Sources */,

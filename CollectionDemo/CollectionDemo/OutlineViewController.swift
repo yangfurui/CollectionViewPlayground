@@ -66,7 +66,8 @@ class OutlineViewController: UIViewController {
                     ]),
                 ]),
                 OutlineItem(title: "Conference App", subitems: [
-                    OutlineItem(title: "Videos", viewController: ConferenceVideoSessionsViewController.self)
+                    OutlineItem(title: "Videos", viewController: ConferenceVideoSessionsViewController.self),
+                    OutlineItem(title: "News", viewController: ConferenceNewsFeedViewController.self)
                 ])
             ])
         ]
