@@ -58,6 +58,7 @@ extension GridViewController {
             cell.label.font = .preferredFont(forTextStyle: .title1)
         }
         
+        // <Sectin, Int>：Section的类型和Item的类型
         dataSource = UICollectionViewDiffableDataSource<Section, Int>(collectionView: collectionView) {
             (collectionView: UICollectionView, indexPath: IndexPath, identifier: Int) -> UICollectionViewCell? in
             return collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: identifier)

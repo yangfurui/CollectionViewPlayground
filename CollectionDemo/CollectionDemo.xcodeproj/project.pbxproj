@@ -13,10 +13,15 @@
 		BB07CD2F27560164001D1620 /* TitleSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD2E27560164001D1620 /* TitleSupplementaryView.swift */; };
 		BB07CD3227560814001D1620 /* SectionDecorationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD3127560814001D1620 /* SectionDecorationViewController.swift */; };
 		BB07CD34275609F4001D1620 /* SectionBackgroundDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD33275609F4001D1620 /* SectionBackgroundDecorationView.swift */; };
+		BB07CD3627560FE0001D1620 /* NewSSEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD3527560FE0001D1620 /* NewSSEmojiViewController.swift */; };
+		BB07CD38275627C6001D1620 /* FacialEmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD37275627C6001D1620 /* FacialEmojiCell.swift */; };
+		BB07CD3A27563CFA001D1620 /* NewSSEmojiContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD3927563CFA001D1620 /* NewSSEmojiContainerViewController.swift */; };
 		BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */; };
 		BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */; };
 		BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */; };
 		BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */; };
+		BB74DC182757189900086315 /* CS_FacialContainerItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB74DC172757189900086315 /* CS_FacialContainerItemCell.swift */; };
+		BB74DC1A27574BCE00086315 /* CS_EmojiSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB74DC1927574BCD00086315 /* CS_EmojiSupplementaryView.swift */; };
 		BB7D4AF82754CD0A00F59A49 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4AF72754CD0A00F59A49 /* TextCell.swift */; };
 		BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */; };
 		BB885C7327508D5500051881 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB885C7227508D5500051881 /* UIColor+.swift */; };
@@ -36,10 +41,15 @@
 		BB07CD2E27560164001D1620 /* TitleSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSupplementaryView.swift; sourceTree = "<group>"; };
 		BB07CD3127560814001D1620 /* SectionDecorationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDecorationViewController.swift; sourceTree = "<group>"; };
 		BB07CD33275609F4001D1620 /* SectionBackgroundDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBackgroundDecorationView.swift; sourceTree = "<group>"; };
+		BB07CD3527560FE0001D1620 /* NewSSEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSSEmojiViewController.swift; sourceTree = "<group>"; };
+		BB07CD37275627C6001D1620 /* FacialEmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialEmojiCell.swift; sourceTree = "<group>"; };
+		BB07CD3927563CFA001D1620 /* NewSSEmojiContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSSEmojiContainerViewController.swift; sourceTree = "<group>"; };
 		BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewController.swift; sourceTree = "<group>"; };
 		BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropModel.swift; sourceTree = "<group>"; };
 		BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewModel.swift; sourceTree = "<group>"; };
+		BB74DC172757189900086315 /* CS_FacialContainerItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS_FacialContainerItemCell.swift; sourceTree = "<group>"; };
+		BB74DC1927574BCD00086315 /* CS_EmojiSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS_EmojiSupplementaryView.swift; sourceTree = "<group>"; };
 		BB7D4AF72754CD0A00F59A49 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewController.swift; sourceTree = "<group>"; };
 		BB885C7227508D5500051881 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
@@ -68,6 +78,7 @@
 		BB07CD3027560738001D1620 /* BaseViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BB20F1B727587B5700738F5D /* CustomDemos */,
 				BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */,
 				BB7D4AFA2754DE5500F59A49 /* TwoColumnViewController.swift */,
 				BB07CD272755C22F001D1620 /* DistinctSectionsViewController.swift */,
@@ -75,6 +86,18 @@
 				BB07CD3127560814001D1620 /* SectionDecorationViewController.swift */,
 			);
 			path = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		BB20F1B727587B5700738F5D /* CustomDemos */ = {
+			isa = PBXGroup;
+			children = (
+				BB07CD3527560FE0001D1620 /* NewSSEmojiViewController.swift */,
+				BB07CD3927563CFA001D1620 /* NewSSEmojiContainerViewController.swift */,
+				BB07CD37275627C6001D1620 /* FacialEmojiCell.swift */,
+				BB74DC172757189900086315 /* CS_FacialContainerItemCell.swift */,
+				BB74DC1927574BCD00086315 /* CS_EmojiSupplementaryView.swift */,
+			);
+			path = CustomDemos;
 			sourceTree = "<group>";
 		};
 		BB32DF60274FA7EA00A4924A /* DragAndDrop */ = {
@@ -220,16 +243,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB07CD3A27563CFA001D1620 /* NewSSEmojiContainerViewController.swift in Sources */,
+				BB07CD3627560FE0001D1620 /* NewSSEmojiViewController.swift in Sources */,
 				BB07CD282755C22F001D1620 /* DistinctSectionsViewController.swift in Sources */,
 				BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */,
+				BB74DC182757189900086315 /* CS_FacialContainerItemCell.swift in Sources */,
 				BB07CD34275609F4001D1620 /* SectionBackgroundDecorationView.swift in Sources */,
 				BB885C7327508D5500051881 /* UIColor+.swift in Sources */,
+				BB74DC1A27574BCE00086315 /* CS_EmojiSupplementaryView.swift in Sources */,
 				BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */,
 				BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */,
 				BB07CD2A2755D857001D1620 /* ListCell.swift in Sources */,
 				BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */,
 				BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */,
 				BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */,
+				BB07CD38275627C6001D1620 /* FacialEmojiCell.swift in Sources */,
 				BB07CD2F27560164001D1620 /* TitleSupplementaryView.swift in Sources */,
 				BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */,
 				BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */,
@@ -386,7 +414,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H5XB9M6U63;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CollectionDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -415,7 +443,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = H5XB9M6U63;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CollectionDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

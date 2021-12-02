@@ -40,3 +40,15 @@ extension TextCell {
         ])
     }
 }
+
+
+class TestCell: UICollectionViewCell {
+    static let reuseIdentifier = "text-cell-reuse-identifier"
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("not implemnted")
+    }
+}
