@@ -69,6 +69,9 @@ class OutlineViewController: UIViewController {
                     OutlineItem(title: "Videos", viewController: ConferenceVideoSessionsViewController.self),
                     OutlineItem(title: "News", viewController: ConferenceNewsFeedViewController.self)
                 ])
+            ]),
+            OutlineItem(title: "Diffable Data Source", subitems: [
+                OutlineItem(title: "Mountains Search", viewController: MountainsViewController.self)
             ])
         ]
     }()

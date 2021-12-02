@@ -32,6 +32,8 @@
 		BBAE7D462758AB8A00F3036D /* ConferenceNewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D452758AB8A00F3036D /* ConferenceNewsFeedViewController.swift */; };
 		BBAE7D482758ABF100F3036D /* ConferenceNewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D472758ABF100F3036D /* ConferenceNewsController.swift */; };
 		BBAE7D4A2758B29300F3036D /* ConferenceNewsFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D492758B29300F3036D /* ConferenceNewsFeedCell.swift */; };
+		BBAE7D4E2758B80B00F3036D /* MountainsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D4D2758B80B00F3036D /* MountainsController.swift */; };
+		BBAE7D502758BF1800F3036D /* MountainsRawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAE7D4F2758BF1800F3036D /* MountainsRawData.swift */; };
 		BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE073F274E489E00223872 /* AppDelegate.swift */; };
 		BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCE0741274E489E00223872 /* SceneDelegate.swift */; };
 		BBCE0747274E489E00223872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCE0745274E489E00223872 /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 		BBCE074C274E489E00223872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCE074A274E489E00223872 /* LaunchScreen.storyboard */; };
 		BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4FBD2754B753005A1D74 /* OutlineViewController.swift */; };
 		BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */; };
+		BBF427652758C168003EE6AA /* MountainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF427642758C168003EE6AA /* MountainsViewController.swift */; };
+		BBF427672758C5F6003EE6AA /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF427662758C5F6003EE6AA /* LabelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +71,8 @@
 		BBAE7D452758AB8A00F3036D /* ConferenceNewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceNewsFeedViewController.swift; sourceTree = "<group>"; };
 		BBAE7D472758ABF100F3036D /* ConferenceNewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceNewsController.swift; sourceTree = "<group>"; };
 		BBAE7D492758B29300F3036D /* ConferenceNewsFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceNewsFeedCell.swift; sourceTree = "<group>"; };
+		BBAE7D4D2758B80B00F3036D /* MountainsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsController.swift; sourceTree = "<group>"; };
+		BBAE7D4F2758BF1800F3036D /* MountainsRawData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainsRawData.swift; sourceTree = "<group>"; };
 		BBCE073C274E489E00223872 /* CollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCE073F274E489E00223872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBCE0741274E489E00223872 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +82,8 @@
 		BBCE074D274E489E00223872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBDB4FBD2754B753005A1D74 /* OutlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineViewController.swift; sourceTree = "<group>"; };
 		BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		BBF427642758C168003EE6AA /* MountainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsViewController.swift; sourceTree = "<group>"; };
+		BBF427662758C5F6003EE6AA /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,7 @@
 				BB07CD2E27560164001D1620 /* TitleSupplementaryView.swift */,
 				BB07CD33275609F4001D1620 /* SectionBackgroundDecorationView.swift */,
 				BBAE7D492758B29300F3036D /* ConferenceNewsFeedCell.swift */,
+				BBF427662758C5F6003EE6AA /* LabelCell.swift */,
 			);
 			path = "Cells and Supplementary Views";
 			sourceTree = "<group>";
@@ -157,6 +166,24 @@
 				BB885C7227508D5500051881 /* UIColor+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BBAE7D4B2758B7ED00F3036D /* Modern Collection Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBAE7D4C2758B7ED00F3036D /* Diffable */,
+			);
+			path = "Modern Collection Views";
+			sourceTree = "<group>";
+		};
+		BBAE7D4C2758B7ED00F3036D /* Diffable */ = {
+			isa = PBXGroup;
+			children = (
+				BBAE7D4F2758BF1800F3036D /* MountainsRawData.swift */,
+				BBF427642758C168003EE6AA /* MountainsViewController.swift */,
+				BBAE7D4D2758B80B00F3036D /* MountainsController.swift */,
+			);
+			path = Diffable;
 			sourceTree = "<group>";
 		};
 		BBCE0733274E489E00223872 = {
@@ -178,6 +205,7 @@
 		BBCE073E274E489E00223872 /* CollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BBAE7D4B2758B7ED00F3036D /* Modern Collection Views */,
 				BB885C7127508D4600051881 /* Extensions */,
 				BBDB4FBA275488B3005A1D74 /* CompositionalLayout */,
 				BB32DF60274FA7EA00A4924A /* DragAndDrop */,
@@ -275,22 +303,26 @@
 				BB07CD3A27563CFA001D1620 /* NewSSEmojiContainerViewController.swift in Sources */,
 				BB07CD3627560FE0001D1620 /* NewSSEmojiViewController.swift in Sources */,
 				BBAE7D4A2758B29300F3036D /* ConferenceNewsFeedCell.swift in Sources */,
+				BBAE7D502758BF1800F3036D /* MountainsRawData.swift in Sources */,
 				BB07CD282755C22F001D1620 /* DistinctSectionsViewController.swift in Sources */,
 				BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */,
 				BB74DC182757189900086315 /* CS_FacialContainerItemCell.swift in Sources */,
 				BB07CD34275609F4001D1620 /* SectionBackgroundDecorationView.swift in Sources */,
 				BB885C7327508D5500051881 /* UIColor+.swift in Sources */,
 				BB74DC1A27574BCE00086315 /* CS_EmojiSupplementaryView.swift in Sources */,
+				BBAE7D4E2758B80B00F3036D /* MountainsController.swift in Sources */,
 				BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */,
 				BBAE7D462758AB8A00F3036D /* ConferenceNewsFeedViewController.swift in Sources */,
 				BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */,
 				BB20F1B927587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift in Sources */,
 				BB07CD2A2755D857001D1620 /* ListCell.swift in Sources */,
+				BBF427672758C5F6003EE6AA /* LabelCell.swift in Sources */,
 				BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */,
 				BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */,
 				BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */,
 				BB20F1BC2758830700738F5D /* ConferenceVideoController.swift in Sources */,
 				BB07CD38275627C6001D1620 /* FacialEmojiCell.swift in Sources */,
+				BBF427652758C168003EE6AA /* MountainsViewController.swift in Sources */,
 				BB07CD2F27560164001D1620 /* TitleSupplementaryView.swift in Sources */,
 				BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */,
 				BBCE0742274E489E00223872 /* SceneDelegate.swift in Sources */,
