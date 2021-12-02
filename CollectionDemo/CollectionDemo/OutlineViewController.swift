@@ -64,7 +64,7 @@ class OutlineViewController: UIViewController {
                     OutlineItem(title: "Section Background Decoration", viewController: SectionDecorationViewController.self)
                 ]),
                 OutlineItem(title: "Orthogonal Sections", subitems: [
-                    OutlineItem(title: "Orthogonal Section Behaviors")
+                    OutlineItem(title: "Orthogonal Section Behaviors", viewController: OrthogonalScrollBehaviorViewController.self)
                 ])
             ])
         ]

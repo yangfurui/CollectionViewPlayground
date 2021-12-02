@@ -16,6 +16,7 @@
 		BB07CD3627560FE0001D1620 /* NewSSEmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD3527560FE0001D1620 /* NewSSEmojiViewController.swift */; };
 		BB07CD38275627C6001D1620 /* FacialEmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD37275627C6001D1620 /* FacialEmojiCell.swift */; };
 		BB07CD3A27563CFA001D1620 /* NewSSEmojiContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07CD3927563CFA001D1620 /* NewSSEmojiContainerViewController.swift */; };
+		BB20F1B927587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB20F1B827587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift */; };
 		BB32DF5F274F7F2800A4924A /* DragAndDropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */; };
 		BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */; };
 		BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */; };
@@ -44,6 +45,7 @@
 		BB07CD3527560FE0001D1620 /* NewSSEmojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSSEmojiViewController.swift; sourceTree = "<group>"; };
 		BB07CD37275627C6001D1620 /* FacialEmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialEmojiCell.swift; sourceTree = "<group>"; };
 		BB07CD3927563CFA001D1620 /* NewSSEmojiContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSSEmojiContainerViewController.swift; sourceTree = "<group>"; };
+		BB20F1B827587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthogonalScrollBehaviorViewController.swift; sourceTree = "<group>"; };
 		BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewController.swift; sourceTree = "<group>"; };
 		BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropModel.swift; sourceTree = "<group>"; };
 		BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				BB07CD272755C22F001D1620 /* DistinctSectionsViewController.swift */,
 				BB07CD2C2755FE3C001D1620 /* PinnedSectionHeaderFooterViewController.swift */,
 				BB07CD3127560814001D1620 /* SectionDecorationViewController.swift */,
+				BB20F1B827587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift */,
 			);
 			path = BaseViewControllers;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				BB74DC1A27574BCE00086315 /* CS_EmojiSupplementaryView.swift in Sources */,
 				BB7D4AFB2754DE5500F59A49 /* TwoColumnViewController.swift in Sources */,
 				BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */,
+				BB20F1B927587C3E00738F5D /* OrthogonalScrollBehaviorViewController.swift in Sources */,
 				BB07CD2A2755D857001D1620 /* ListCell.swift in Sources */,
 				BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */,
 				BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */,
