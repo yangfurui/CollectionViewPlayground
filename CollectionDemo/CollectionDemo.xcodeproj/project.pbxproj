@@ -23,6 +23,7 @@
 		BB32DF62274FA7FD00A4924A /* DragAndDropModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */; };
 		BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */; };
 		BB32DF66274FA86900A4924A /* DragAndDropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */; };
+		BB5295A12759BA5700B699B3 /* WiFiSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5295A02759BA5700B699B3 /* WiFiSettingViewController.swift */; };
 		BB74DC182757189900086315 /* CS_FacialContainerItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB74DC172757189900086315 /* CS_FacialContainerItemCell.swift */; };
 		BB74DC1A27574BCE00086315 /* CS_EmojiSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB74DC1927574BCD00086315 /* CS_EmojiSupplementaryView.swift */; };
 		BB7D4AF82754CD0A00F59A49 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7D4AF72754CD0A00F59A49 /* TextCell.swift */; };
@@ -43,6 +44,7 @@
 		BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */; };
 		BBF427652758C168003EE6AA /* MountainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF427642758C168003EE6AA /* MountainsViewController.swift */; };
 		BBF427672758C5F6003EE6AA /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF427662758C5F6003EE6AA /* LabelCell.swift */; };
+		BBF427692758DB59003EE6AA /* WiFiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF427682758DB59003EE6AA /* WiFiController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,7 @@
 		BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropModel.swift; sourceTree = "<group>"; };
 		BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropCollectionViewCell.swift; sourceTree = "<group>"; };
 		BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAndDropViewModel.swift; sourceTree = "<group>"; };
+		BB5295A02759BA5700B699B3 /* WiFiSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiSettingViewController.swift; sourceTree = "<group>"; };
 		BB74DC172757189900086315 /* CS_FacialContainerItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS_FacialContainerItemCell.swift; sourceTree = "<group>"; };
 		BB74DC1927574BCD00086315 /* CS_EmojiSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS_EmojiSupplementaryView.swift; sourceTree = "<group>"; };
 		BB7D4AF72754CD0A00F59A49 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
@@ -84,6 +87,7 @@
 		BBDB4FC02754C0EF005A1D74 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		BBF427642758C168003EE6AA /* MountainsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainsViewController.swift; sourceTree = "<group>"; };
 		BBF427662758C5F6003EE6AA /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		BBF427682758DB59003EE6AA /* WiFiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 				BBAE7D4F2758BF1800F3036D /* MountainsRawData.swift */,
 				BBF427642758C168003EE6AA /* MountainsViewController.swift */,
 				BBAE7D4D2758B80B00F3036D /* MountainsController.swift */,
+				BBF427682758DB59003EE6AA /* WiFiController.swift */,
+				BB5295A02759BA5700B699B3 /* WiFiSettingViewController.swift */,
 			);
 			path = Diffable;
 			sourceTree = "<group>";
@@ -318,10 +324,12 @@
 				BB07CD2A2755D857001D1620 /* ListCell.swift in Sources */,
 				BBF427672758C5F6003EE6AA /* LabelCell.swift in Sources */,
 				BBDB4FBE2754B753005A1D74 /* OutlineViewController.swift in Sources */,
+				BBF427692758DB59003EE6AA /* WiFiController.swift in Sources */,
 				BBDB4FC12754C0EF005A1D74 /* GridViewController.swift in Sources */,
 				BBCE0740274E489E00223872 /* AppDelegate.swift in Sources */,
 				BB20F1BC2758830700738F5D /* ConferenceVideoController.swift in Sources */,
 				BB07CD38275627C6001D1620 /* FacialEmojiCell.swift in Sources */,
+				BB5295A12759BA5700B699B3 /* WiFiSettingViewController.swift in Sources */,
 				BBF427652758C168003EE6AA /* MountainsViewController.swift in Sources */,
 				BB07CD2F27560164001D1620 /* TitleSupplementaryView.swift in Sources */,
 				BB32DF64274FA84300A4924A /* DragAndDropCollectionViewCell.swift in Sources */,

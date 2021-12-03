@@ -71,7 +71,8 @@ class OutlineViewController: UIViewController {
                 ])
             ]),
             OutlineItem(title: "Diffable Data Source", subitems: [
-                OutlineItem(title: "Mountains Search", viewController: MountainsViewController.self)
+                OutlineItem(title: "Mountains Search", viewController: MountainsViewController.self),
+                OutlineItem(title: "Settings:Wi-Fi", viewController: WiFiSettingViewController.self)
             ])
         ]
     }()
