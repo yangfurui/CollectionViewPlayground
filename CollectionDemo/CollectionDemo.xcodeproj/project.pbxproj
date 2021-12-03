@@ -142,12 +142,27 @@
 		BB32DF60274FA7EA00A4924A /* DragAndDrop */ = {
 			isa = PBXGroup;
 			children = (
+				BB5295A22759CB6F00B699B3 /* PhotoAlbum */,
+			);
+			path = DragAndDrop;
+			sourceTree = "<group>";
+		};
+		BB5295A22759CB6F00B699B3 /* PhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhotoAlbum;
+			sourceTree = "<group>";
+		};
+		BB5295A32759CB7C00B699B3 /* CustomDemos */ = {
+			isa = PBXGroup;
+			children = (
 				BB32DF5E274F7F2800A4924A /* DragAndDropViewController.swift */,
 				BB32DF61274FA7FD00A4924A /* DragAndDropModel.swift */,
 				BB32DF63274FA84300A4924A /* DragAndDropCollectionViewCell.swift */,
 				BB32DF65274FA86900A4924A /* DragAndDropViewModel.swift */,
 			);
-			path = DragAndDrop;
+			path = CustomDemos;
 			sourceTree = "<group>";
 		};
 		BB7D4AF62754CCF900F59A49 /* Cells and Supplementary Views */ = {
@@ -213,6 +228,7 @@
 			children = (
 				BBAE7D4B2758B7ED00F3036D /* Modern Collection Views */,
 				BB885C7127508D4600051881 /* Extensions */,
+				BB5295A32759CB7C00B699B3 /* CustomDemos */,
 				BBDB4FBA275488B3005A1D74 /* CompositionalLayout */,
 				BB32DF60274FA7EA00A4924A /* DragAndDrop */,
 				BBCE073F274E489E00223872 /* AppDelegate.swift */,
